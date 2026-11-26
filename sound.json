@@ -1,0 +1,133 @@
+{
+  "mapping": {
+    "FL": 1,
+    "FR": 2,
+    "RL": 3,
+    "RR": 4
+  },
+  "speaker_db": {
+    "FL": -12,
+    "FR": -12,
+    "RL": -12,
+    "RR": -12
+  },
+  "master_db": -24,
+  "mode": "earphone",
+  "panning_law": "-3",
+  "elevation_strength": 1.0,
+  "r0": 1.0,
+  "distance_exponent": 1.0,
+  "highpass_strength": 1.0,
+  "reverb_amount": 0.0,
+  "doppler_strength": 0.0,
+  "doppler_enabled": false,
+  "blocksize": 1024,
+  "latency": "high",
+  "output_device": 1,
+  "horizontal_fov": 90.0,
+  "video": "Video.mp4",
+  "fps": 24,
+  "frames": 601,
+  "listener_px": [
+    940,
+    520
+  ],
+  "front_px": [
+    940,
+    420
+  ],
+  "spread_radius_px": 160,
+  "sources": [
+    {
+      "id": "background_music",
+      "file": "Sound_2.wav",
+      "stem": "MX",
+      "render": "channel",
+      "start_frame": 0,
+      "end_frame": 96,
+      "level_db": -6.0
+    },
+    {
+      "id": "radio",
+      "file": "Sound_3.wav",
+      "stem": "MX",
+      "render": "obj",
+      "azimuth_deg": 90,
+      "start_frame": 96,
+      "end_frame": 300,
+      "level_db": 3.0,
+      "spread_near": false
+    },
+    {
+      "id": "bees",
+      "file": "Sound_1.wav",
+      "stem": "FX",
+      "render": "obj",
+      "path": "object_path_bee.csv",
+      "start_frame": 265,
+      "end_frame": 472,
+      "level_db": 6.0,
+      "spread_near": true
+    },
+    {
+      "id": "scream",
+      "file": "Sound_4.wav",
+      "stem": "DX",
+      "render": "channel",
+      "start_frame": 400,
+      "end_frame": 430,
+      "level_db": 0.0
+    }
+  ],
+  "video_path": "/Users/kimdongha/Desktop/trajectory_audio_project/Sample/음원 및 영상2/Video.mp4",
+  "tracks": [
+    {
+      "id": 1,
+      "path": "/Users/kimdongha/Desktop/trajectory_audio_project/Sample/음원 및 영상2/Sound_1.wav",
+      "name": "Sound_1.wav",
+      "category": "FX",
+      "delivery": "Object",
+      "start_frame": 260,
+      "end_frame": 475,
+      "volume_db": 0.0,
+      "trajectory_path": "",
+      "fx_subtype": "Foley"
+    },
+    {
+      "id": 2,
+      "path": "/Users/kimdongha/Desktop/trajectory_audio_project/Sample/음원 및 영상2/Sound_2.wav",
+      "name": "Sound_2.wav",
+      "category": "MX",
+      "delivery": "Channel",
+      "start_frame": 0,
+      "end_frame": 95,
+      "volume_db": 0.0,
+      "trajectory_path": "",
+      "fx_subtype": "Foley"
+    },
+    {
+      "id": 3,
+      "path": "/Users/kimdongha/Desktop/trajectory_audio_project/Sample/음원 및 영상2/Sound_3.wav",
+      "name": "Sound_3.wav",
+      "category": "MX",
+      "delivery": "Object",
+      "start_frame": 95,
+      "end_frame": 300,
+      "volume_db": 0.0,
+      "trajectory_path": "",
+      "fx_subtype": "Foley"
+    },
+    {
+      "id": 4,
+      "path": "/Users/kimdongha/Desktop/trajectory_audio_project/Sample/음원 및 영상2/Sound_4.wav",
+      "name": "Sound_4.wav",
+      "category": "DX",
+      "delivery": "Channel",
+      "start_frame": 400,
+      "end_frame": 430,
+      "volume_db": 0.0,
+      "trajectory_path": "",
+      "fx_subtype": "Foley"
+    }
+  ]
+}

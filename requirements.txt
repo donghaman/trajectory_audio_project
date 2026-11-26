@@ -1,0 +1,7 @@
+numpy
+sounddevice
+soundfile
+scipy
+matplotlib
+pytest
+opencv-python==4.10.0.84
